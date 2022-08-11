@@ -1,5 +1,4 @@
 import { useState } from "react"
-
 export const Welcome = () => {
     const [message, setMessage] = useState('new message')
     return (
