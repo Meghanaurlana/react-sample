@@ -21,7 +21,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
   .Hello {
-    animation: App-logo-spin infinite 1s linear;
+    animation: App-logo-spin infinite .1s linear;
   }
 }
 
