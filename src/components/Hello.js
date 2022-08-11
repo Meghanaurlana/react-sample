@@ -1,4 +1,4 @@
-function Hello(){
-return<h1>hello meghna  {5*2*45*19*7777}</h1>
+export const Hello = (props) => {
+    return <h1>hello  {props.name} </h1>
 }
-export default Hello
+// export default Hello

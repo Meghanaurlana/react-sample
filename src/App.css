@@ -1,6 +1,10 @@
 * {
   font-weight: 200;
 }
+.Welcome{
+  justify-content: center;
+  display: flex;
+}
 
 .App-logo {
   height: 40vmin;
@@ -13,9 +17,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
 
-  .App-logo,
-  .Hello {
+  .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+  .Hello {
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
