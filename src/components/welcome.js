@@ -4,7 +4,7 @@ export const Welcome = () => {
     return (
         <div>
             <h1>{message}</h1>
-            <button onClick={() => setMessage('welcome Meghana')}>click</button>
+            <button  className="btn btn-info" onClick={() => setMessage('welcome Meghana')}>click</button>
         </div>
     )
 }
