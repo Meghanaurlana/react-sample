@@ -9,11 +9,12 @@ function App() {
   return (
     <div className="App">
       <small className="App-header">
-      
+
         <img src={logo} className="App-logo" alt="logo" />
         <small className='Hellos'>
           +
         </small>
+        <h2>Time{new Date().toLocaleTimeString()}</h2>
       </small>
 
       <div className="Navbar">
@@ -28,11 +29,6 @@ function App() {
         <Welcome />
       </div>
 
-
-      <div>
-        <h2>Time{new Date().toLocaleTimeString()}</h2>
-      </div>
-
       <br></br>
       <div>
         <Reservation />
@@ -43,3 +39,7 @@ function App() {
 }
 
 export default App;
+
+
+
+
